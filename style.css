@@ -1,0 +1,97 @@
+body {
+    font-family: "Playfair Display", serif;
+    background: url(e194552f3cd20f02f4f5df63b6872ae2.jpg) no-repeat center center fixed;
+    color: #a11a1a;
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 10px 10px 10px rgba(151, 56, 56, 0.473);
+}
+
+
+.content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    max-width: 60%;
+    /* border: 2px solid #fd2437; */
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.486);
+}
+
+footer {
+    margin-top: 30px;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.question-container {
+    /* justify-content: center;
+    align-content: center; */
+
+}
+
+.h1-question {
+    font-size: 25px;
+}
+
+.buttons {
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yes-button {
+    background-color: #ff8080;
+    color: white;
+}
+
+#yes-button:hover::after {
+    content: 'I Love U';
+    background-color: #ff808086;
+    transition: 0.5s;
+}
+
+#no-button {
+    background-color: #ffe4e4;
+    color: black;
+}
+#no-button:hover::after {
+    content: 'Motivo de termino!';
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
